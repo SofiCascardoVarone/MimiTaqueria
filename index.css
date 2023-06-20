@@ -16,6 +16,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     margin:0;
+    
 }
 
 
@@ -85,7 +86,7 @@ h5 {
 }
 
 .box{
-    background: rgb(252, 213, 213);
+    background: #367E18;
     max-width: 3000px;
     padding: 40px;
     overflow: hidden;
@@ -134,13 +135,19 @@ div.row.mx-5{
         background-image: none;
         display:none !important;
     }
+    .nav-item1{
+        display:none !important;
+    }
     .box{
-        background: rgba(237,28,36,255);
+        background: #367E18;
     }
 }
 
 @media only screen and (min-width: 801px) {
     .seccion2celular{
+        display:none !important;
+    }
+    .nav-item2{
         display:none !important;
     }
 }
@@ -156,4 +163,41 @@ div.row.mx-5{
 
 header{
     background-color: rgb(228, 175, 2);
+}
+
+.btn-flotante {
+	font-size: 30px;
+	font-weight: bolder;
+	border-radius: 5px; 
+    color:black;
+	background-color: #367E18; 
+	padding: 18px 30px; 
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+}
+.btn-flotante:hover {
+	background-color: rgba(237,28,36,255);
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+@media only screen and (max-width: 600px) {
+.btn-flotante {
+		font-size: 20px;
+		padding: 12px 20px;
+		bottom: 20px;
+		right: 20px;
+	}
+}
+
+.verde{
+    color:#367E18
+}
+
+.enviar{
+    background-color: #367E18;
+    border: #367E18;
 }
