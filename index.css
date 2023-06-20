@@ -1,0 +1,159 @@
+* {
+    padding: 0 !important;
+    right: 0;
+    font-family: 'Geologica', sans-serif;
+    color:rgb(49, 49, 49);
+    }
+
+.nav-tabs{
+    --bs-nav-tabs-border-color: none;
+    --bs-nav-tabs-link-hover-border-color: rgb(255, 174, 0);
+    --bs-nav-link-hover-color: red;
+}
+
+.head{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin:0;
+}
+
+
+#pagina{
+    right: 0;
+}
+
+.imghistoria{
+    right: 0;
+}
+
+.gap{
+        gap: 20px;
+    }
+
+body{
+    margin: 0 !important;
+    background-image: url(./img/fondobody.jpeg);
+}
+
+#historia{
+padding-top: 1000px;
+}
+
+
+.historiamimi{
+    font-size:70px;
+}
+
+.historiataqueria{
+    font-size:30px;
+}
+
+.historia{
+    font-size:15px;
+}
+
+.seccion1{
+    right: 0;
+    height:100%;
+    width: 100%;
+    margin-right: 0 !important;
+}
+
+div#historia.container.seccion1.d-flex.flex-row{
+    margin-right: 0 !important;
+}
+
+.textomimi{
+    right: 0;
+}
+
+.imgreserva{
+    margin-top: 20px;
+}
+
+.seccion2{
+    background-image: url(./img/nachoscar.jpg);
+    height: 550px;
+    padding-bottom: 600px !important;
+    padding-top: 70px !important;
+    background-position: center 40%;
+}
+
+h5 {
+    width: 250px
+}
+
+.box{
+    background: rgb(252, 213, 213);
+    max-width: 3000px;
+    padding: 40px;
+    overflow: hidden;
+}
+
+.menu{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.tituloMenu{
+    font-size:100px;
+}
+
+.form{
+    margin-top: 100px;
+}
+
+#padtop{
+    padding-top: 2000px;
+}
+
+.sucursal{
+    font-weight: bold;
+}
+
+.direccion{
+    align-items: center;
+}
+
+h5.col-6{
+    width: 100%;
+}
+
+.reserva{
+    font-size: 70px; 
+    font-weight: bold;
+}
+
+div.row.mx-5{
+    display: block !important;
+}
+
+@media only screen and (max-width: 800px) {
+    .seccion2{
+        background-image: none;
+        display:none !important;
+    }
+    .box{
+        background: rgba(237,28,36,255);
+    }
+}
+
+@media only screen and (min-width: 801px) {
+    .seccion2celular{
+        display:none !important;
+    }
+}
+
+.titulo, .sucursal{
+    font-family: 'Bagel Fat One', cursive;
+    color:rgba(237,28,36,255);
+}
+
+.comida{
+    font-family: 'Bagel Fat One', cursive;
+}
+
+header{
+    background-color: rgb(228, 175, 2);
+}
